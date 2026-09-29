@@ -29,7 +29,7 @@ const ABOUT = [
     title: "수강 과목",
     items: [["MBC AI 데이터 저널리즘 전문가 과정", "2026. 9-12"]]
   },
-  
+
 ];
 
 // ---------- 분류 (필터 버튼 이름) ----------
@@ -44,62 +44,19 @@ const CATEGORIES = ["AI영상", "Opal", "기타"];
 //         비워두면 [] 색상 블록이 대신 보여요.
 // file:   원본 파일(PDF, 영상 등) 링크. 없으면 "" 로 두세요.
 // process 안의 \n 은 줄바꿈이에요.
-const WORKS = [
-  {
-    title: "숫자로 보는 2026 아이치·나고야 아시안 게임",
-    category: "AI영상",
-    course: "AI 데이터 저널리즘",
-    date: "2026.09",
-    tools: "ChatGPT, Midjourney, CapCut",
-    intent: "아시안 게임 개최 현황을 숫자를 통해 전해드립니다.",
-    process: "기획 구성(ChatGPT) → 스토리보드 및 대본 작성(ChatGPT) → 이미지 및 영상 생성(Midjourney) → TTS 생성(ElevenLabs) → 최종편집(CapCut)",
-    youtube: "jJfDsHUsM2Q",
-    images: ["images/숫자로 보는 아시안게임 썸네일.png"],
-    file: ""
-  },
-  
-{
-  title: "폭염 뉴스",
-  category: "AI영상",
-  course: "AI 데이터 저널리즘",
-  date: "2026.09",
-  tools: "ChatGPT, Opal",
-  intent: "폭염 날씨에 주의해야 할 사항을 전해드립니다.",
-  process: "기획 구성(ChatGPT) → 스토리보드 및 대본 작성(ChatGPT) → 이미지 및 영상 생성(Midjourney) → TTS 및 아바타 생성, 최종편집(Synthesia)",
-  embed: "https://share.synthesia.io/embeds/videos/9d52b5f7-c1e4-43e4-8d9d-e78d501b3fa5",
-  images: ["images/폭염뉴스 썸네일.png"],
-  file: ""
-},
 
-{
-  title: "오늘의 록",
-  category: "Opal",
-  course: "AI 데이터 저널리즘",
-  date: "2026.09",
-  tools: "ChatGPT, Opal",
-  intent: "날씨와 기분을 입력하면 어울리는 록 음악을 추천해드립니다.",
-  process: "",
-  embed: "",
-  app: "https://opal.google/app/19Qz_-HEzjVPXrvaiCMJ_6_gdYK8M1cHt",
-  images: ["images/오팔 오늘의록 썸네일.png"],
-  file: ""
-},
+let WORKS = [];
 
-{
-  title: "프롬프트 주세요",
-  category: "Opal",
-  course: "AI 데이터 저널리즘",
-  date: "2026.09",
-  tools: "ChatGPT, Opal",
-  intent: "만들고 싶은 영상 주제와 길이, 무드를 입력하면 기획안과 스토리보드, 이미지/영상/음성 프롬프트를 작성해드립니다.",
-  process: "",
-  embed: "",
-  app: "https://opal.google/app/1KDAnwK77UawewmbIfm5GUIc6k9XdSMod",
-  images: ["images/오팔 프롬프트주세요 썸네일.png"],
-  file: ""
-},
+fetch("data.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    WORKS = data;
+        showFilters();
+    showCards();
+  });
 
-];
 
 
 
@@ -310,7 +267,7 @@ function openDetail(index) {
     fileButton.style.display = "none";
   }
 
-    // 앱 버튼: app 링크가 있을 때만 보이기 (Opal 등)
+  // 앱 버튼: app 링크가 있을 때만 보이기 (Opal 등)
   const appButton = document.getElementById("detail-app");
   if (work.app) {
     appButton.href = work.app;
