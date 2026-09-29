@@ -48,5 +48,18 @@
     "app": "https://opal.google/app/1KDAnwK77UawewmbIfm5GUIc6k9XdSMod",
     "images": ["images/오팔 프롬프트주세요 썸네일.png"],
     "file": ""
+  },
+    {
+    "title": "나무 자세, 흔들려도 괜찮습니다 🌳 브릭샤사나 | 1분 아사나 EP.1",
+    "category": "AI영상",
+    "course": "AI 데이터 저널리즘",
+    "date": "2026.09",
+    "tools": "ChatGPT, Midjourney, CapCut",
+    "intent": "「1분 아사나」는 하나의 요가 자세를 몸·호흡·마음의 관점에서 60초 안에 담아내는 시리즈입니다.",
+    "process": "",
+    "embed": "",
+    "youtube": "sQjCg2Qa_5U",
+    "images": ["images/1분아사나_1브릭샤사나_썸네일.png"],
+    "file": ""
   }
 ]
