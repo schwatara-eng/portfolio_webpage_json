@@ -75,5 +75,18 @@
   "images": ["images/YOURFLOW_썸네일.PNG"],
   "file": ""
 }
+{
+  "title": "OpenWeather 비동기 패턴 실습",
+  "category": "웹앱",
+  "course": "AI 데이터 저널리즘",
+  "date": "2026.10",
+  "tools": "HTML, CSS, JavaScript, Node.js, Express, OpenWeather API, Vercel",
+  "intent": "OpenWeather API를 활용해 Promise, async/await, Promise.all의 비동기 처리 방식을 비교하고, Node.js 백엔드에서 외부 API 데이터를 처리하는 구조를 익히기 위한 실습 웹 애플리케이션입니다.",
+  "process": "OpenWeather API 연동 → Promise 방식 구현 → async/await 방식 구현 → Promise.all을 이용한 4개 도시 병렬 조회 → Express 서버 구성 → 환경변수(.env)로 API Key 관리 → Vercel 배포",
+  "embed": "",
+  "app": "https://javascript-study-eight.vercel.app/",
+  "images": ["images/OPENWEATHER_썸네일.PNG"],
+  "file": ""
+}
 
 ]
