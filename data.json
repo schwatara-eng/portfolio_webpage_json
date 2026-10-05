@@ -74,7 +74,7 @@
   "app": "https://yoga-flow-app-sepia.vercel.app/index.html",
   "images": ["images/YOURFLOW_썸네일.PNG"],
   "file": ""
-}
+},
 {
   "title": "OpenWeather 비동기 패턴 실습",
   "category": "웹앱",
