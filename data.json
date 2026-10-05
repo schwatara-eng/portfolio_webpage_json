@@ -87,6 +87,19 @@
   "app": "https://javascript-study-eight.vercel.app/",
   "images": ["images/openweather_썸네일.PNG"],
   "file": ""
+},
+{
+  "title": "오늘의 록 — Today's Rock",
+  "category": "웹앱",
+  "course": "AI 데이터 저널리즘",
+  "date": "2026.10",
+  "tools": "HTML, CSS, JavaScript, JSON, Open-Meteo API, BigDataCloud API, Vercel",
+  "intent": "현재 위치의 날씨와 사용자가 고른 기분을 조합해, 300곡의 록 음악 데이터에서 오늘 듣기 좋은 세 곡을 추천하는 웹 애플리케이션입니다. 곡마다 주제·분위기·추천 이유를 함께 보여주고 YouTube와 가사 페이지로 연결합니다.",
+  "process": "Opal 버전 기획 → 록 음악 300곡 데이터(JSON) 구축 → HTML·CSS·JavaScript 프론트엔드 구현 → Open-Meteo API로 현재 날씨 연동 → 위치 기반 지역명 표시 → 날씨·기분 점수 기반 추천 로직 구현 → 반응형 화면 구성 → Vercel 배포",
+  "embed": "",
+  "app": "https://today-rockapp.vercel.app/",
+  "images": ["images/todaysrock_썸네일.png"],
+  "file": ""
 }
 
 ]
