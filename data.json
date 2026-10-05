@@ -98,7 +98,7 @@
   "process": "Opal 버전 기획 → 록 음악 300곡 데이터(JSON) 구축 → HTML·CSS·JavaScript 프론트엔드 구현 → Open-Meteo API로 현재 날씨 연동 → 위치 기반 지역명 표시 → 날씨·기분 점수 기반 추천 로직 구현 → 반응형 화면 구성 → Vercel 배포",
   "embed": "",
   "app": "https://today-rockapp.vercel.app/",
-  "images": ["images/todaysrock_썸네일.png"],
+  "images": ["images/todaysrock_썸네일.PNG"],
   "file": ""
 }
 
