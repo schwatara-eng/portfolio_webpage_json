@@ -583,3 +583,45 @@ img {
     gap: 20px;
   }
 }
+
+/* ---------------------------------------------------------
+   프로필 이미지 확대 모달
+   --------------------------------------------------------- */
+
+.avatar {
+  cursor: pointer;
+}
+
+.profile-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(30, 24, 18, 0.75);
+
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-modal.show {
+  display: flex;
+}
+
+.profile-modal-image {
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.profile-modal-close {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+
+  color: white;
+  font-size: 40px;
+  line-height: 1;
+  cursor: pointer;
+}

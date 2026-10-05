@@ -156,6 +156,32 @@ function showProfile() {
   });
 }
 
+// ---------------------------------------------------------
+// 프로필 사진 확대 모달
+// ---------------------------------------------------------
+const avatar = document.getElementById("avatar");
+const profileModal = document.getElementById("profileModal");
+const profileModalClose = document.getElementById("profileModalClose");
+const profileModalImage = document.getElementById("profileModalImage");
+
+avatar.style.cursor = "pointer";
+
+avatar.addEventListener("click", function () {
+  if (!PROFILE.photo) return;
+
+  profileModalImage.src = PROFILE.photo;
+  profileModal.classList.add("show");
+});
+
+profileModalClose.addEventListener("click", function () {
+  profileModal.classList.remove("show");
+});
+
+profileModal.addEventListener("click", function (event) {
+  if (event.target === profileModal) {
+    profileModal.classList.remove("show");
+  }
+});
 
 // ---------------------------------------------------------
 // ③ 필터 버튼 만들기
