@@ -107,7 +107,7 @@
   "category": "웹앱",
   "course": "AI 활용 콘텐츠 기획 및 웹서비스 제작",
   "date": "2026.10",
-  "tools": "HTML, CSS, JavaScript, Node.js, Express, Groq API, OpenRouter API",
+  "tools": "HTML, CSS, JavaScript, Node.js, Express, Groq API",
   "intent": "영상 제작에 필요한 기획부터 스토리보드, 대본, 이미지·영상 생성 프롬프트까지 하나의 웹앱에서 작성할 수 있도록 기획했습니다. AI를 활용해 반복적인 제작 과정을 간소화하고, 콘텐츠 제작자가 기획과 연출에 집중할 수 있도록 설계한 서비스입니다.",
   "process": "영상 제작 워크플로 설계 → 7단계 프롬프트 구조 작성 → HTML·CSS·JavaScript 화면 구현 → Node.js·Express 서버 구축 → OpenRouter API 연동 → Groq API 전환 → 단계별 결과 검증 및 자동 재시도 구현 → 마크다운 출력 및 탭 UI 개선",
   "features": [
