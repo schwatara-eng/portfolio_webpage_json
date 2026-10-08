@@ -68,8 +68,8 @@
   "course": "AI 데이터 저널리즘",
   "date": "2026.10",
   "tools": "HTML, CSS, JavaScript, Node.js, MySQL, Railway, Vercel",
-  "intent": "48개의 요가 자세 데이터를 검색하고 조건에 맞는 아사나 루틴을 구성할 수 있는 요가 웹 애플리케이션입니다.",
-  "process": "요가 API 데이터 활용 → HTML·CSS·JavaScript 프론트엔드 구현 → 검색·필터 기능 구현 → 요가 루틴 생성 기능 구현 → MySQL 데이터베이스 연동 → Railway 서버 배포 → Vercel 프론트 배포",
+  "intent": "48개의 요가 아사나 데이터를 기반으로 자세를 탐색하고 개인의 운동 목적과 조건에 맞는 요가 루틴을 생성하는 웹 애플리케이션입니다. 한글·영문·산스크리트어 통합 검색과 다양한 필터를 제공하며, 자세 간 연결성과 중복을 고려한 루틴 추천 알고리즘을 구현했습니다.",
+  "process": "오픈소스 요가 API 데이터 수집·가공 → HTML·CSS·JavaScript 프론트엔드 구현 → 다국어 통합 검색 및 조건별 필터 개발 → MySQL 데이터베이스 구축 및 Railway 연동 → 자세 간 연결성을 고려한 루틴 생성 알고리즘 개선 → 고정 시작·마무리 자세 및 중복 방지 로직 적용 → 반응형 모바일 화면 최적화 → Vercel 배포",
   "embed": "",
   "app": "https://yoga-flow-app-sepia.vercel.app/index.html",
   "images": ["images/YOURFLOW_썸네일.PNG"],
@@ -88,14 +88,15 @@
   "images": ["images/openweather_썸네일.PNG"],
   "file": ""
 },
+
 {
   "title": "오늘의 록 — TODAY'S ROCK",
   "category": "웹앱",
   "course": "AI 데이터 저널리즘",
   "date": "2026.10",
   "tools": "HTML, CSS, JavaScript, JSON, Open-Meteo API, BigDataCloud API, Vercel",
-  "intent": "현재 위치의 날씨와 사용자가 고른 기분을 조합해, 300곡의 록 음악 데이터에서 오늘 듣기 좋은 세 곡을 추천하는 웹 애플리케이션입니다. 곡마다 주제·분위기·추천 이유를 함께 보여주고 YouTube와 가사 페이지로 연결합니다.",
-  "process": "Opal 버전 기획 → 록 음악 300곡 데이터(JSON) 구축 → HTML·CSS·JavaScript 프론트엔드 구현 → Open-Meteo API로 현재 날씨 연동 → 위치 기반 지역명 표시 → 날씨·기분 점수 기반 추천 로직 구현 → 반응형 화면 구성 → Vercel 배포",
+  "intent": "날씨와 기분에 어울리는 록 음악을 추천하고, 록 음악 뉴스와 뮤지션의 이야기를 함께 소개하는 음악 큐레이션 웹 애플리케이션입니다. 현재 위치의 날씨와 사용자가 선택한 기분을 분석해 록 음악 데이터에서 세 곡을 추천하며, 곡별 추천 이유와 YouTube·가사 링크를 제공합니다. '오늘의 뮤지션'에서는 아티스트의 음악 세계와 주요 앨범, 에디터 코멘트를 소개합니다.",
+  "process": "Opal 프로토타입 기획 → 록 음악 데이터(JSON) 구축 및 확장 → HTML·CSS·JavaScript 프론트엔드 구현 → Open-Meteo API 날씨 연동 → 위치 기반 지역명 표시 → 날씨·기분 점수 기반 추천 알고리즘 구현 → 오늘의 뉴스·오늘의 뮤지션 섹션 추가 → 뮤지션 소개 및 에디터 코멘트 콘텐츠 제작 → 반응형 UI 개선 → GitHub 연동 및 Vercel 배포",
   "embed": "",
   "app": "https://today-rockapp.vercel.app/",
   "images": ["images/today-rock_썸네일.PNG"],
