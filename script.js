@@ -293,14 +293,26 @@ function openDetail(index) {
     fileButton.style.display = "none";
   }
 
-  // 앱 버튼: app 링크가 있을 때만 보이기 (Opal 등)
-  const appButton = document.getElementById("detail-app");
-  if (work.app) {
-    appButton.href = work.app;
-    appButton.style.display = "inline-block";
-  } else {
-    appButton.style.display = "none";
-  }
+
+// 앱 버튼: 공개된 프로젝트는 링크, 미공개 프로젝트는 비활성 표시
+const appButton = document.getElementById("detail-app");
+
+appButton.style.display = "inline-block";
+
+if (work.app && work.app !== "미공개") {
+  appButton.href = work.app;
+  appButton.textContent = "웹앱 보기 ↗";
+  appButton.style.opacity = "1";
+  appButton.style.pointerEvents = "auto";
+  appButton.style.cursor = "pointer";
+} else {
+  appButton.removeAttribute("href");
+  appButton.textContent = "미공개";
+  appButton.style.opacity = "0.45";
+  appButton.style.pointerEvents = "none";
+  appButton.style.cursor = "default";
+}
+
 
   // 큰 이미지 (첫 번째 장)
   showMainImage(0);

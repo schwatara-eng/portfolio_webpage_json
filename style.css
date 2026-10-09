@@ -625,3 +625,12 @@ img {
   line-height: 1;
   cursor: pointer;
 }
+
+.unpublished-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #e8e8e8;
+  color: #888;
+  font-size: 13px;
+  cursor: default;
+}

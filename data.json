@@ -122,6 +122,20 @@
   "app": "",
   "images": ["images/prompt-craft_썸네일.PNG"],
   "file": "https://github.com/schwatara-eng/prompt_craft_app"
+},
+
+{
+  "title": "최미라의 출판편집 포트폴리오",
+  "category": "웹앱",
+  "course": "개인 프로젝트",
+  "date": "2026.10",
+  "tools": "HTML, CSS, JavaScript, JSON, GitHub",
+  "intent": "10년 이상의 출판 기획·편집 경력을 디지털 포트폴리오로 재구성한 웹사이트입니다. 참여 도서를 출판사·분야·경력 유형별로 탐색할 수 있도록 설계하고, 각 도서의 작업 내용과 유통 정보를 체계적으로 정리했습니다.",
+  "process": "출판 경력 및 참여 도서 목록 정리 → 도서별 서지·유통 정보 조사 → JSON 기반 데이터 구조 설계 → HTML·CSS·JavaScript 화면 구현 → 검색·필터 및 상세 정보 기능 구현 → 반응형 도서 아카이브 구성",
+  "embed": "",
+  "app": "미공개",
+  "images": ["images/book-portfolio_썸네일.PNG"],
+  "file": ""
 }
 
 
