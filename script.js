@@ -34,7 +34,7 @@ const ABOUT = [
 
 // ---------- 분류 (필터 버튼 이름) ----------
 // 과제의 category와 글자가 똑같아야 필터가 작동해요.
-const CATEGORIES = ["AI영상", "Opal", "웹앱","기타"];
+const CATEGORIES = ["AI영상", "Opal", "웹앱", "웹사이트", "기타"];
 
 // ---------- 과제 목록 ----------
 // 새 과제를 추가하려면 { ... }, 한 덩어리를 복사해서 붙여넣고 내용을 바꾸세요.
@@ -298,7 +298,9 @@ const appButton = document.getElementById("detail-app");
 
 if (work.app && work.app !== "미공개") {
   appButton.href = work.app;
-  appButton.textContent = "웹앱 보기 ↗";
+  appButton.textContent = work.category === "웹사이트"
+  ? "웹사이트 보기 ↗"
+  : "웹앱 보기 ↗";
   appButton.style.display = "inline-block";
   appButton.style.opacity = "1";
   appButton.style.pointerEvents = "auto";
