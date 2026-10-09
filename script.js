@@ -303,9 +303,16 @@ if (work.app && work.app !== "미공개") {
   appButton.style.opacity = "1";
   appButton.style.pointerEvents = "auto";
   appButton.style.cursor = "pointer";
-} else {
+} else if (work.youtube || work.embed) {
   appButton.removeAttribute("href");
   appButton.style.display = "none";
+} else {
+  appButton.removeAttribute("href");
+  appButton.textContent = "미공개";
+  appButton.style.display = "inline-block";
+  appButton.style.opacity = "0.45";
+  appButton.style.pointerEvents = "none";
+  appButton.style.cursor = "default";
 }
 
   // 큰 이미지 (첫 번째 장)
