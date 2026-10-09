@@ -136,6 +136,20 @@
   "app": "미공개",
   "images": ["images/book-portfolio_썸네일.PNG"],
   "file": ""
+},
+
+{
+  "title": "몸을 지탱하는 것과 버티는 것은 어떻게 다를까요? 아도무카스바나사나 | 1분 아사나 EP.2",
+  "category": "AI영상",
+  "course": "AI 데이터 저널리즘",
+  "date": "2026.10",
+  "tools": "ChatGPT, Pexels, Firefly, CapCut",
+  "intent": "「1분 아사나」는 하나의 요가 자세를 몸·호흡·마음의 관점에서 60초 안에 담아내는 시리즈입니다.",
+  "process": "",
+  "embed": "https://www.youtube.com/embed/YT_Imycm5yA",
+  "app": "",
+  "images": ["images/1분아사나_2아도무카스바나사나_썸네일.png"],
+  "file": ""
 }
 
 
