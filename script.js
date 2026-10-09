@@ -17,7 +17,7 @@ const PROFILE = {
   headline: "최미라의 포트폴리오",
   bio: "AI를 배우는 출판편집자",
   photo: "images/눈물은행 사물 - 눈물은행 통장.png",  // 프로필 사진 주소. 예: "images/me.jpg" (비우면 이름 첫 글자가 보여요)
-  tags: ["AI영상", "Opal", "웹앱"],
+  tags: ["AI영상", "Opal", "웹앱", "웹사이트"],
   email: "schwatara@email.com",
 };
 
