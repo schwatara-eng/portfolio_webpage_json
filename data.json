@@ -56,7 +56,7 @@
     "date": "2026.09",
     "tools": "ChatGPT, Midjourney, CapCut",
     "intent": "「1분 아사나」는 하나의 요가 자세를 몸·호흡·마음의 관점에서 60초 안에 담아내는 시리즈입니다.",
-    "process": "",
+    "process": "주제 선정 및 자료 조사 → 60초 스토리보드 작성 → 스톡영상 확보 및 내레이션 구성 → AI 영상 제작 → 영상 편집 → 유튜브 쇼츠 업로드",
     "embed": "",
     "youtube": "sQjCg2Qa_5U",
     "images": ["images/1분아사나_1브릭샤사나_썸네일.png"],
@@ -145,12 +145,25 @@
   "date": "2026.10",
   "tools": "ChatGPT, Pexels, Firefly, CapCut",
   "intent": "「1분 아사나」는 하나의 요가 자세를 몸·호흡·마음의 관점에서 60초 안에 담아내는 시리즈입니다.",
-  "process": "",
+  "process": "주제 선정 및 자료 조사 → 60초 스토리보드 작성 → 스톡영상 확보 및 내레이션 구성 → AI 영상 제작 → 영상 편집 → 유튜브 쇼츠 업로드",
   "embed": "https://www.youtube.com/embed/YT_Imycm5yA",
   "app": "",
   "images": ["images/1분아사나_2아도무카스바나사나_썸네일.png"],
   "file": ""
-}
+},
 
+{
+  "title": "가슴을 연다는 건 어떤 의미일까요? 🐍 부장가사나 | 1분 아사나 EP.3",
+  "category": "AI영상",
+  "course": "AI 데이터 저널리즘",
+  "date": "2026.10",
+  "tools": "ChatGPT, Pexels, Adobe Firefly, CapCut",
+  "intent": "하나의 요가 자세를 몸·호흡·마음의 관점에서 60초 안에 담아내는 1분 아사나」 시리즈의 세 번째 작품입니다. 코브라 자세를 통해 척추의 신전과 가슴의 확장, 호흡의 중요성을 소개합니다.",
+  "process": "주제 선정 및 자료 조사 → 60초 스토리보드 작성 → 스톡영상 확보 및 내레이션 구성 → AI 영상 제작 → 영상 편집 → 유튜브 쇼츠 업로드",
+  "embed": "https://www.youtube.com/embed/lmXsCy3GjW8",
+  "app": "",
+  "images": ["images/1분아사나_3부장가사나_썸네일.png"],
+  "file": ""
+}
 
 ]
